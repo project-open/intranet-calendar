@@ -110,10 +110,10 @@ begin
 		);
 		RAISE NOTICE ''im_projects_calendar_update_tr: v_activity_id=%'', v_activity_id;
 	
-		SELECT	calendar_id
+		SELECT	min(calendar_id)
 		INTO 	v_calendar_id
 		FROM	calendars
-		WHERE	calendar_name = ''Global Calendar'';
+		WHERE	private_p = ''f'';
 	
 		v_recurrence_id := NULL;
 		v_cal_item_id := cal_item__new (
@@ -227,12 +227,12 @@ begin
 			'''', 
 			''acs_activity'', now(), null, ''0.0.0.0'', null
 		);
-	
-		SELECT	calendar_id
+
+		SELECT	min(calendar_id)
 		INTO 	v_calendar_id
 		FROM	calendars
-		WHERE	calendar_name = ''Global Calendar'';
-	
+		WHERE	private_p = ''f'';
+
 		v_recurrence_id := NULL;
 		v_cal_item_id := cal_item__new (
 			null,			-- cal_item_id
@@ -344,11 +344,11 @@ begin
 			''acs_activity'', now(), null, ''0.0.0.0'', null
 		);
 	
-		SELECT	calendar_id
+		SELECT	min(calendar_id)
 		INTO 	v_calendar_id
 		FROM	calendars
-		WHERE	calendar_name = ''Global Calendar'';
-	
+		WHERE	private_p = ''f'';
+
 		v_recurrence_id := NULL;
 		v_cal_item_id := cal_item__new (
 			null,			-- cal_item_id
