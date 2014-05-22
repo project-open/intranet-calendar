@@ -18,7 +18,7 @@ ad_library {
 ad_proc -public im_package_calendar_id {} {
     Returns the package id of the intranet-calendar module
 } {
-    return [util_memoize "im_package_calendar_id_helper"]
+    return [util_memoize im_package_calendar_id_helper]
 }
 
 ad_proc -private im_package_calendar_id_helper {} {
@@ -32,17 +32,13 @@ ad_proc -private im_package_calendar_id_helper {} {
 ad_proc -public package_calendar_id {} {
     Returns the package id of the calendar module
 } {
-    return [util_memoize "db_string cal \"select package_id from apm_packages where package_key = 'calendar'\" -default 0"]
+    return [util_memoize [list db_string cal "select package_id from apm_packages where package_key = 'calendar'" -default 0]]
 }
-
-
-
 
 
 # ----------------------------------------------------------------------
 # Calendar Components
 # ---------------------------------------------------------------------
-
 
 ad_proc -public im_calendar_home_component {
     { -skip 0 }
