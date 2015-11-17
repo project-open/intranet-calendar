@@ -46,7 +46,7 @@ ad_proc -public im_calendar_home_component {
     Returns the package id of the intranet-calendar module
 } {
     set today ""
-    set current_user_id [ad_get_user_id]
+    set current_user_id [ad_conn user_id]
     set cal_package_id [util_memoize [list db_string cal_package "select min(package_id) from apm_packages where package_key = 'calendar'" -default 0]]
     set perm_p [permission::permission_p -party_id $current_user_id -object_id $cal_package_id -privilege "read"]
     if {!$perm_p} { return "" }
