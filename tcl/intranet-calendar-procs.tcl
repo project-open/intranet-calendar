@@ -23,7 +23,7 @@ ad_proc -public im_package_calendar_id {} {
 
 ad_proc -private im_package_calendar_id_helper {} {
     return [db_string im_package_core_id {
-        select package_id from apm_packages
+        select min(package_id) from apm_packages
         where package_key = 'intranet-calendar'
     } -default 0]
 }
