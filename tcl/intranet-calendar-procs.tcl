@@ -32,7 +32,7 @@ ad_proc -private im_package_calendar_id_helper {} {
 ad_proc -public package_calendar_id {} {
     Returns the package id of the calendar module
 } {
-    return [util_memoize [list db_string cal "select package_id from apm_packages where package_key = 'calendar'" -default 0]]
+    return [util_memoize [list db_string cal "select min(package_id) from apm_packages where package_key = 'calendar'" -default 0]]
 }
 
 
