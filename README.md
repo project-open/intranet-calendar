@@ -2,9 +2,9 @@
 This package is part of ]project-open[, an open-source enterprise project management system.
 
 For more information about ]project-open[ please see:
-* [Documentation Wiki](http://www.project-open.com/en/)
+* [Documentation Wiki](https://www.project-open.com/en/)
 * [V5.0 Download](https://sourceforge.net/projects/project-open/files/project-open/V5.0/)
-* [Installation Instructions](http://www.project-open.com/en/list-installers)
+* [Installation Instructions](https://www.project-open.com/en/list-installers)
 
 About ]po[ Calendar:
 
@@ -14,15 +14,15 @@ About ]po[ Calendar:
 
 ## Procedure Files
 
-<table cellpadding="0" cellspacing="0"><tr valign="top"><td style="width:35%"><b><a href="http://www.project-open.net/api-doc/procs-file-view?version_id=105288&amp;path=packages/intranet-calendar/tcl/intranet-calendar-procs.tcl">tcl/intranet-calendar-procs.tcl</a></b></td><td></td><td>Library for ]po[ specific calendar functionality </td></tr></table>
+<table cellpadding="0" cellspacing="0"><tr valign="top"><td style="width:35%"><b><a href="https://www.project-open.net/api-doc/procs-file-view?version_id=105288&amp;path=packages/intranet-calendar/tcl/intranet-calendar-procs.tcl">tcl/intranet-calendar-procs.tcl</a></b></td><td></td><td>Library for ]po[ specific calendar functionality </td></tr></table>
 
 ## Procedures
 
-<table cellpadding="0" cellspacing="0"><tr valign="top"><td style="width:35%"><b><a href="http://www.project-open.net/api-doc/proc-view?version_id=105288&amp;proc=im_calendar_home_component">im_calendar_home_component</a></b></td><td></td><td>Returns the package id of the intranet-calendar module </td></tr><tr valign="top"><td style="width:35%"><b><a href="http://www.project-open.net/api-doc/proc-view?version_id=105288&amp;proc=im_package_calendar_id">im_package_calendar_id</a></b></td><td></td><td>Returns the package id of the intranet-calendar module </td></tr><tr valign="top"><td style="width:35%"><b><a href="http://www.project-open.net/api-doc/proc-view?version_id=105288&amp;proc=package_calendar_id">package_calendar_id</a></b></td><td></td><td>Returns the package id of the calendar module </td></tr></table>
+<table cellpadding="0" cellspacing="0"><tr valign="top"><td style="width:35%"><b><a href="https://www.project-open.net/api-doc/proc-view?version_id=105288&amp;proc=im_calendar_home_component">im_calendar_home_component</a></b></td><td></td><td>Returns the package id of the intranet-calendar module </td></tr><tr valign="top"><td style="width:35%"><b><a href="https://www.project-open.net/api-doc/proc-view?version_id=105288&amp;proc=im_package_calendar_id">im_package_calendar_id</a></b></td><td></td><td>Returns the package id of the intranet-calendar module </td></tr><tr valign="top"><td style="width:35%"><b><a href="https://www.project-open.net/api-doc/proc-view?version_id=105288&amp;proc=package_calendar_id">package_calendar_id</a></b></td><td></td><td>Returns the package id of the calendar module </td></tr></table>
 
 ## SQL Files
 
-<table cellpadding="0" cellspacing="0"><tr valign="top"><td><b><a href="http://www.project-open.net/api-doc/display-sql?package_key=intranet-calendar&amp;url=postgresql/intranet-calendar-create.sql&amp;version_id=105288">sql/postgresql/intranet-calendar-create.sql</a></b></td><td></td><td></td></tr><tr valign="top"><td><b><a href="http://www.project-open.net/api-doc/display-sql?package_key=intranet-calendar&amp;url=postgresql/intranet-calendar-drop.sql&amp;version_id=105288">sql/postgresql/intranet-calendar-drop.sql</a></b></td><td></td><td></td></tr></table>
+<table cellpadding="0" cellspacing="0"><tr valign="top"><td><b><a href="https://www.project-open.net/api-doc/display-sql?package_key=intranet-calendar&amp;url=postgresql/intranet-calendar-create.sql&amp;version_id=105288">sql/postgresql/intranet-calendar-create.sql</a></b></td><td></td><td></td></tr><tr valign="top"><td><b><a href="https://www.project-open.net/api-doc/display-sql?package_key=intranet-calendar&amp;url=postgresql/intranet-calendar-drop.sql&amp;version_id=105288">sql/postgresql/intranet-calendar-drop.sql</a></b></td><td></td><td></td></tr></table>
 
 ## Content Pages
 
